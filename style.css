@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.main_box{
+    width: 600px;
+    height: 300px;
+    border: 3px lightgray solid;
+    box-shadow: 5px 5px grey;
+}
+
+.blue_bar{
+    width: 600px;
+    height: 100px;
+    background-color: #0765a3;
+    position: relative;
+    top: -3px;
+    left: -3px;
+}
+
+.profile_pic {
+    height: 80px;
+    position: relative;
+    top: -45px;
+    left: 40px;
+    border: 5px white solid;
+    background-color: black;
+    border-radius: 100px;
+    filter: invert(1);
+}
+
+.container {
+    position: relative;
+    left: 20px;
+    top: -45px;
+}
+
+.location{
+    display: flex;
+    margin-top: 5px;
+    align-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.settings{
+    margin-top: 10px;
+}
